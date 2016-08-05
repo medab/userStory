@@ -1,0 +1,18 @@
+<div class="container" ng-controller="MainController as login">
+    <div class="row">
+
+    	<div class="col-sm-6 col-md-4 col-md-offset-4">
+			<form method="post" role="form" ng-submit="login.doLogin()"> 
+
+				<div class="form-group">
+					Username : <input type="text" class="form-control" ng-model="login.loginData.username" ></input>
+				</div>
+				<div class="form-group">
+				Password : <input type="text" class="form-control" ng-model="login.loginData.password" ></input>
+				</div>
+				<button type="submit" class="btn btn-success">Login</button>
+				
+			</form>
+	</div>	
+
+</div>
