@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a use story app",
   "main": "server.js",
+  "engines": {
+    "node": "6.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
